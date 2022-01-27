@@ -15,7 +15,7 @@ export const Checkout = () => {
 
                 <div>
                     <h3>Hello , {user?.email}</h3>
-                    <h2 className="checkout__title">Your Shopping Basket Below.Thank you so much for </h2>
+                    <h2 className="checkout__title">Your Shopping Basket</h2>
                     
                     {basket.map(item => (
                         <CheckoutProduct
